@@ -1,0 +1,24 @@
+.container{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(10, 42, 111);
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    font-size: 20px;
+}
+#message{
+    font-size:20px;
+}
+#box{
+   height: 30px;
+}
+#btn{
+    height:37px;
+    width: 80px;
+}
