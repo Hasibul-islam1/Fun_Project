@@ -1,5 +1,7 @@
+// get the calculetor button and text box value 
 document.getElementById("btn").addEventListener("click",()=>{
 const line =document.getElementById("boxValue").value;
+// counter vareable diclar and condition 
 let b;
 if (line=="") {
     alert("enter your text")
@@ -13,6 +15,13 @@ else{
         }
     }
 }
-document.getElementById("num").innerText=b;
+let z=b.toString();
+document.getElementById("num").innerText=z;
 });
 
+// reset 
+document.getElementById("reset").addEventListener("click",()=>{
+    let box=document.getElementById("boxValue");
+    box.value="";
+    document.getElementById("num").innerText="";
+})
